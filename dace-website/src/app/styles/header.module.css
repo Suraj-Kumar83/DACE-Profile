@@ -4,68 +4,70 @@
   justify-content: space-between;
   background-color: #d4f3d5ff;
   padding: 1.5rem 1rem;
-  flex-wrap: wrap; /* allows wrapping on small screens */
+  flex-wrap: nowrap;         
   text-align: center;
+  overflow: hidden;           
 }
 
 /* Left & right images */
 .imageWrapper {
   flex: 0 0 auto;
-  margin-bottom: 0.5rem;
+  margin: 0 0.5rem;
 }
 
 .image {
-  height: 180px;
+  height: 120px;             
   width: auto;
   max-width: 100%;
-  border-radius: 50%; /* make circular */
+  border-radius: 50%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Center text container */
+/* Center text */
 .centerText {
   flex: 1 1 auto;
-  min-width: 200px;
+  min-width: 0;               
+  padding: 0 0.5rem;
 }
 
 .centerText h1 {
-  font-size: 1.75rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: #1e40af;
   margin: 0;
+  white-space: normal;
 }
 
 .centerText h2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #374151;
   margin: 0;
+  white-space: normal;
 }
 
-/* Responsiveness */
-@media (max-width: 768px) {
+/* Tablet and larger */
+@media (min-width: 768px) {
   .image {
-    height: 120px;
+    height: 150px;
   }
   .centerText h1 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .centerText h2 {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .header {
-    justify-content: center;
-  }
-  .image {
-    height: 100px;
-  }
-  .centerText h1 {
     font-size: 1.2rem;
   }
+}
+
+/* Desktop and larger */
+@media (min-width: 1024px) {
+  .image {
+    height: 180px;
+  }
+  .centerText h1 {
+    font-size: 1.75rem;
+  }
   .centerText h2 {
-    font-size: 0.9rem;
+    font-size: 1.25rem;
   }
 }
