@@ -1,0 +1,67 @@
+.section {
+  padding: 3rem 1rem;
+  max-width: 64rem; /* same as Tailwind's max-w-4xl */
+  margin: 0 auto;
+  scroll-margin-top: 80px; /* offset for navbar */
+}
+
+.heading {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #1e40af; /* blue-800 */
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 2.25rem; /* text-4xl */
+  }
+}
+
+.paragraph {
+  font-size: 1rem;
+  color: #1f2937; /* gray-800 */
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .paragraph {
+    font-size: 1.125rem; /* larger font on bigger screens */
+  }
+}
+
+.subHeading {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #0f172a; /* gray-900 */
+}
+
+@media (min-width: 768px) {
+  .subHeading {
+    font-size: 1.75rem; /* bigger on desktop */
+  }
+}
+
+.list {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+  color: #374151; /* gray-700 */
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+  .list {
+    font-size: 1.125rem;
+  }
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+}

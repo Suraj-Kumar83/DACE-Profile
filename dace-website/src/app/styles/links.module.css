@@ -1,0 +1,65 @@
+.section {
+  padding: 3rem 1rem;
+  max-width: 64rem;
+  margin: 0 auto;
+  scroll-margin-top: 80px;
+}
+
+.heading {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #1e40af;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 2.25rem;
+  }
+}
+
+.linkGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .linkGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .linkGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.linkCard {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1f2937;
+  text-decoration: none;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.linkCard:hover {
+  background-color: #f3f4f6;
+  transform: translateY(-3px);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: #1e40af;
+}

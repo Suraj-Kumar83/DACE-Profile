@@ -1,0 +1,92 @@
+.footer {
+  background-color: #0c1b35; /* dark blue background */
+  color: #ffffff;
+}
+
+/* Container grid */
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footerContainer {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+  }
+}
+
+/* Headings */
+.heading {
+  color: #f59e0b; /* orange */
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+/* Links list */
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.linkList li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.linkList li:hover {
+  color: #fbbf24; /* lighter orange on hover */
+}
+
+/* Contact and about text */
+.textBlock {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+/* Social icons */
+.socialLinks {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .socialLinks {
+    justify-content: flex-start;
+  }
+}
+
+.icon {
+  background-color: #4b5563; /* gray-600 */
+  padding: 0.5rem;
+  border-radius: 9999px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+.icon:hover {
+  background-color: #f59e0b;
+}
+
+/* Bottom bar */
+.bottomBar {
+  background-color: #091427; /* even darker */
+  border-top: 1px solid #374151;
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0.75rem;
+}
+.linkList li a {
+  color: inherit; /* inherit white text */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.linkList li a:hover {
+  color: #fbbf24; /* orange on hover */
+}
