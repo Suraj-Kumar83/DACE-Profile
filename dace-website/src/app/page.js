@@ -12,6 +12,7 @@ import LinksPage from "./components/Links";
 import DACECarousel from "./components/Carousel";
 import LeadershipSection from "./components/Leader";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,71 +20,9 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <header
-  style={{
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "space-between",
-    padding: "1.5rem 1rem",
-    backgroundColor: "#d4f3d5ff",
-    flexWrap: "wrap", // ensures responsiveness on small screens
-    textAlign: "center",
-  }}
->
-  {/* Left Image */}
-  <div style={{ flex: "0 0 auto", marginBottom: "0.5rem" }}>
-    <img
-      src="/Picture10.jpg" // replace with your image path
-      alt="Dr. B.R. Ambedkar"
-      style={{
-        height: "180px",
-        width: "auto",
-        maxWidth: "100%",
-        borderRadius: "50%", // optional: to make it circular
-        boxShadow: "0 2px 4px rgba(0, 0,0, 0.1)", // optional: to add a subtle shadow
-      }}
-    />
-  </div>
-
-  {/* Center Text */}
-  <div style={{ flex: "1 1 auto", minWidth: "200px" }}>
-    <h1
-      style={{
-        fontSize: "1.75rem",
-        fontWeight: "bold",
-        color: "#1e40af",
-        margin: 0,
-      }}
-    >
-      Dr. Ambedkar Centre of Excellence (DACE)
-    </h1>
-    <h2
-      style={{
-        fontSize: "1.25rem",
-        fontWeight: "500",
-        color: "#374151",
-        margin: 0,
-      }}
-    >
-      H.N.B. Garhwal University
-    </h2>
-  </div>
-
-  {/* Right Image */}
-  <div style={{ flex: "0 0 auto", marginBottom: "0.5rem" }}>
-    <img
-      src="/Picture11.png" // replace with your image path
-      alt="HNBGU Logo"
-      style={{
-        height: "180px",
-        width: "auto",
-        maxWidth: "100%",
-        borderRadius: "50%", // optional: to make it circular
-        boxShadow: "0 2px 4px rgba(0, 0,0, 0.1)", // optional: to add a subtle shadow
-      }}
-    />
-  </div>
-</header>
+       <section id="header" style={{ scrollMarginTop: "80px", maxWidth: "95rem", margin: "0 auto" }}>
+        <Header/>
+      </section>
       
       <section id="carousel" style={{ scrollMarginTop: "80px", maxWidth: "95rem", margin: "0 auto" }}>
         <DACECarousel/>
