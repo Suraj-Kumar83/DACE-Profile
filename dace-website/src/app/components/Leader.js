@@ -10,7 +10,7 @@ export default function LeadershipSection() {
         <div className={styles.card}>
           <div className={styles.imageWrapper}>
             <Image
-              src="/Picture12.jpeg" // place in /public
+              src="/Picture12.jpg" 
               alt="Vice Chancellor"
               fill
               sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
