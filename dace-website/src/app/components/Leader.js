@@ -14,7 +14,7 @@ export default function LeadershipSection() {
               alt="Vice Chancellor"
               fill
               sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-              style={{ objectFit: "cover" }}
+              style={{ marginTop: "0.1rem"}}
             />
           </div>
           <h3 className={styles.cardTitle}>Prof. Shri Prakash Singh</h3>
@@ -35,7 +35,7 @@ export default function LeadershipSection() {
               alt="DACE Coordinator"
               fill
               sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-              style={{ objectFit: "cover" }}
+              style={{ marginTop: "-0.1rem" }}
             />
           </div>
           <h3 className={styles.cardTitle}>Prof. M.M. Semwal</h3>
