@@ -75,9 +75,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className={styles.bottomBar}>
         © {new Date().getFullYear()} Dr. Ambedkar Centre of Excellence, HNBGU. All rights reserved. <br />  
-        <span className={styles.designBy}>
-              Designed by <a href="https://my-portfolio-ebon-three-20.vercel.app/" target="_blank" rel="noopener noreferrer">  Suraj Kumar  </a>  under the guidance of <a href="https://www.linkedin.com/in/varun-barthwal-623876202/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">Dr. Varun Barthwal </a>
-        </span>
+
       </div>
     </footer>
   );

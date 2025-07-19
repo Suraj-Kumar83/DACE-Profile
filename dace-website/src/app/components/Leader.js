@@ -31,7 +31,7 @@ export default function LeadershipSection() {
         <div className={styles.card}>
           <div className={styles.imageWrapper}>
             <Image
-              src="/Picture13.png" // place in /public
+              src="/Picture13.jpg" // place in /public
               alt="DACE Coordinator"
               fill
               sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
