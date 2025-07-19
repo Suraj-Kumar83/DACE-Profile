@@ -26,12 +26,10 @@ export default function LeadershipSection() {
             guidance for competitive examinations and holistic development.
           </p>
         </div>
-
-        {/* DACE Coordinator */}
         <div className={styles.card}>
           <div className={styles.imageWrapper}>
             <Image
-              src="/Picture13.jpg" // place in /public
+              src="/Picture13.jpg" 
               alt="DACE Coordinator"
               fill
               sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"

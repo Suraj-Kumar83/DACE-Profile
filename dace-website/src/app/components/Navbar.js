@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
-        <div className={styles.logo}>HNBGU</div>
+        <div className={styles.logo}>Hemvati Nandan Bahuguna Garhwal University <br/> (A Central University)</div>
         <ul className={`${styles.navLinks} ${isOpen ? styles.showMenu : ""}`}>
           {navItems.map((item) => (
             <li key={item.id}>

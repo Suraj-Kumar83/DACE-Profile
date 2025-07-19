@@ -55,20 +55,10 @@ export default function Footer() {
           <p className={styles.textBlock}>
              DACE at the H.N.B. Garhwal University was established in the month of April 2022 by Dr. Ambedkar Foundation, Ministry of Social Justice & Empowerment, Government of India. Dr. Ambedkar Centre of Excellence (DACE) scheme is to empower Scheduled Caste (SC) and Other Backward Classes (OBC) students in competitive exams by providing better opportunities for learning and excellence through quality coaching, personality development and acquisition of competitive skills.
           </p>
-          <div className={styles.socialLinks}>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <FaFacebookF className={styles.icon} />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className={styles.icon} />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className={styles.icon} />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <FaLinkedinIn className={styles.icon} />
-            </a>
-          </div>
+
+          <p className={styles.textBlock}>Designed and Developed by <a href="https://www.linkedin.com/in/varun-barthwal-623876202/" alt="portfoilio links" style={{textDecoration:"none", color:"white"}} >Dr. Varun Barthwal ,</a> Assistant Professor, B.Tech., HoD
+            (IT Department), HNBGU. and <a href="https://my-portfolio-ebon-three-20.vercel.app/" alt="portfoilio links" style={{textDecoration:"none", color:"white"}} >Suraj Kumar,</a> B.Tech. 4th Year (CSE).
+          </p>
         </div>
       </div>
 
