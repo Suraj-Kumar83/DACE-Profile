@@ -8,7 +8,7 @@ import SelectionProcedure from "./components/SelectionProcedures";
 import Eligibility from "./components/Eligibility";
 import OtherActivities from "./components/OtherActivities";
 import Faculties from "./components/Faculties";
-import LinksPage from "./components/Links";
+// import LinksPage from "./components/Links";
 import DACECarousel from "./components/Carousel";
 import LeadershipSection from "./components/Leader";
 import Footer from "./components/Footer";
@@ -58,9 +58,9 @@ export default function Home() {
       </section>
 
 
-      <section id="links" style={{ scrollMarginTop: "80px", padding: "3rem 1rem", maxWidth: "64rem", margin: "0 auto" }}>
+      {/* <section id="links" style={{ scrollMarginTop: "80px", padding: "3rem 1rem", maxWidth: "64rem", margin: "0 auto" }}>
         <LinksPage />
-      </section>
+      </section> */}
       <section id="footer" style={{ scrollMarginTop: "80px", maxWidth: "100rem", margin: "0 auto" }}>
         <Footer />
       </section>

@@ -13,7 +13,6 @@ export default function Navbar() {
     { label: "Eligibility", id: "eligibility" },
     { label: "Other Activities", id: "other-activities" },
     { label: "Faculties", id: "faculties" },
-    { label: "Links", id: "links" },
   ];
 
   return (
